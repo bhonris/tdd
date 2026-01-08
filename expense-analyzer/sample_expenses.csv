@@ -1,0 +1,22 @@
+id,date,amount,vendor
+1,2023-10-01,15.50,Starbucks
+2,2023-10-02,45.00,Uber
+3,2023-10-03,120.00,Amazon AWS
+4,2023-10-04,12.00,McDonalds
+5,2023-10-05,500.00,Delta Airlines
+6,2023-10-06,20.00,Local Taxi
+7,2023-10-07,89.99,Office Depot
+8,2023-12-25,1000.00,Apple Store
+9,2024-01-01,5.00,7-Eleven
+10,2023-10-08,-10.00,Void Transaction?
+11,invalid-date,25.00,Bad Date Vendor
+12,2023-10-09,one hundred,Bad Amount Vendor
+13,,30.00,Missing Date
+14,2023-10-10,40.00,
+15,2050-01-01,100.00,Future Vendor
+16,2023-02-29,50.00,Fake Leap Day
+17,2023-11-01,0.00,Zero Amount
+18,2023-11-02,10000000.00,Suspicious Large Amount
+19,2023-11-03,25.50,<script>alert('xss')</script>
+20,2023-11-04, 50.00 ,Whitespace Padding
+21,2023/11/05,15.00,Wrong Date Separators
